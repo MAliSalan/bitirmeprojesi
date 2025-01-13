@@ -1,6 +1,6 @@
 const express = require("express");
 const Restaurant = require("../models/Restaurant");
-const SECRET_KEY = "qoakmsdkasmdkaskdkm32984kmaskdmad";
+const SECRET_KEY = "YOUR_SECRET_KEY";
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
 const router = express.Router();
