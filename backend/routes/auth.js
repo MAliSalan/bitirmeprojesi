@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 const Restaurant = require('../models/Restaurant');
 const router = express.Router();
-const SECRET_KEY = "qoakmsdkasmdkaskdkm32984kmaskdmad";
+const SECRET_KEY = "YOUR_SECRET_KEY";
 
 // kullanıcı kayıt işlemi
 
