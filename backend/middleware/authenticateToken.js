@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 const Restaurant = require("../models/Restaurant");
-const SECRET_KEY = "qoakmsdkasmdkaskdkm32984kmaskdmad";
+const SECRET_KEY = "YOUR_SECRET_KEY";
 
 async function authenticateToken(req, res, next) {
   const authHeader = req.headers["authorization"];
